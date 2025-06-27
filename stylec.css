@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #9AA96E;
+    justify-content: center;
+    align-content: center;
+    color: black;
+}
+.calc-box{
+    width: 28%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-radius: 15px;
+    margin-left: 35%;
+    box-shadow: 0px 2px 10px 2px rgb(0,0,0,0.2);
+}
+.text-area{
+    width: 88%;
+    height: 15%;
+    border-radius: 7px;
+    background-color: rgb(125, 173, 62);
+    margin-left: 5.5%;
+    margin-top: 8%;
+    border-width: 1px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    text-indent: 20px;
+}
+.cont,.cont3{
+    background-color: rgba(15, 12, 12, 0.911);
+    border-radius: 7px;
+    padding: 10%;
+    margin: 10%;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    position: relative;
+    
+}
+.cont1,.cont2{
+    background: linear-gradient(to right, #2e2e2e00, #4b464662);
+    border-radius: 7px;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.signs {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 0.2fr);
+    margin-top: 5%;
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 20px;
+}
+.cont3{
+    background-color: rgb(24, 111, 211);
+    flex-direction: column;
+  grid-row: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+}
+.cont2{
+    background: linear-gradient(to right, #a321211c, #a7a3a327);
+}
