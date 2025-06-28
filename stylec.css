@@ -76,6 +76,19 @@ body{
 @media(max-width:600px){
     .calc-box{
         width: 85%;
-        margin-left: 10%;
+        margin-left: 8%;
+        height: 80%;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px){
+    .calc-box{
+        width: 60%;
+        height: 60%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .calc-box{
+        width: 60%;
+        height: 40%
     }
 }
