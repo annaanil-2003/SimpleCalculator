@@ -73,3 +73,9 @@ body{
 .cont2{
     background: linear-gradient(to right, #a321211c, #a7a3a327);
 }
+@media(max-width:600px){
+    .calc-box{
+        width: 85%;
+        margin-left: 10%;
+    }
+}
